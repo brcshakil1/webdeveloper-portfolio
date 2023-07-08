@@ -220,3 +220,51 @@ main section {
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer styles */
+footer {
+    display: flex;
+    background-color: #ffeadb;
+    padding: 130px 200px;
+    margin-top: 130px;
+}
+
+.footer-col {
+    width: 50%;
+}
+
+.footer-col > h3,
+.footer-col > p{
+    text-align: left;
+}
+
+input, textarea {
+    display: block;
+    width: 460px;
+    padding: 18px 30px;
+
+    border-radius: 5px;
+    background: var(--white-color, #FFF);
+
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+textarea {
+    height: 180px;
+}
+
+#submit {
+    width: 150px;
+}
+
+.social-links {
+    margin-top: 30px;
+}
+
+.social-links > a{
+    margin-right: 24px;
+}
