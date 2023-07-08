@@ -1,5 +1,5 @@
-/* common shared style */
 
+/* common shared style */
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -25,6 +25,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -48,4 +49,35 @@ nav a {
 
     color: #474747;
     font-size: 20px;
+}
+
+/* header related styles */
+
+.header {
+    background: #ffeadb;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+
+    display: flex;
+    align-items: center;
+}
+
+.bn-greeting {
+    color:  #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.bn-heading {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-content {
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
 }
