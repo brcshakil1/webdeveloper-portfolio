@@ -177,5 +177,20 @@ main section {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
 }
 .skill-desc {
-    
+    color: #757575;
+}
+
+/* resume section styles */
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.resume-col-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
